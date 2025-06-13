@@ -1,0 +1,21 @@
+# Ignorar entorno virtual
+tensorflow-env/
+venv/
+.env
+
+# Archivos temporales
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de TensorFlow o pesos grandes
+*.h5
+uploads/
+*.png
+
+# Entornos, configuración local
+*.log
+.DS_Store
+.idea/
+.vscode/
